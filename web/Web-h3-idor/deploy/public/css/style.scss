@@ -1,0 +1,138 @@
+@import "compass/css3";
+
+/*
+  FontAwesome - The best icon font ever :)
+  http://fortawesome.github.io/Font-Awesome/
+
+  Thanks to Dave Gandy and all involved in FontAwesome !!!
+*/
+
+
+[class^="icon"],[class*=" icon"]{font-family:FontAwesome;font-weight:normal;font-style:normal;text-decoration:inherit;-webkit-font-smoothing:antialiased;}
+.iconLogin:before{content:"\f090";}
+.iconRegister:before{content:"\f067";}
+.iconForgot:before{content:"\f128";}
+
+*{@include box-sizing(border-box);}
+.patternwall{position: absolute;top: 20px;right: 20px;}
+body{
+  font: 14px/22px "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background:url(http://www.patternwall.net/img/patterns/02_dark_gray/005.png) left top;
+};
+.clear{clear:both;}
+.box{
+  width: 300px;
+  margin: 60px auto;
+  position: relative;
+  z-index: 1;
+}
+.tabs{
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: -34px;
+  a{
+    position: relative;
+    height: 30px;
+    width: 36px;
+    display: block;
+    margin-bottom: 10px;
+    padding-top: 3px;
+    cursor: pointer;
+    @include transition(all .2s linear);
+    @include box-shadow(0 0 2px lighten(black, 10%));
+
+    &.active, &:hover{margin-left:-3px;}
+
+    &:before{
+      font-size:14px;
+      color:white;
+      padding-left:10px;
+    }
+  }
+}
+.blueBox{
+  color:white;
+  border:solid 1px #0083ff;
+  @include background(linear-gradient(#0083ff, #0073e0));
+}
+.greenBox{
+  color:white;
+  border:solid 1px #57c100;
+  @include background(linear-gradient(#58c400, #4aa500));
+}
+.redBox{
+  color:white;
+  border:solid 1px #e50000;
+  @include background(linear-gradient(#e50000, #c90000));
+}
+$height:230px;
+.containerWrapper{
+  position: relative;
+  z-index: 3;
+  overflow:hidden;
+  height:$height;
+  @include box-shadow(0 0 5px black);
+}
+.tabContainer{
+  height:$height;
+  display:none;
+  border:solid 1px white;
+  padding: 20px;
+  @include background-image(linear-gradient(white, #dddddd));
+  @include transition(all .4s linear);
+  &.active{display:block;}
+}
+.loginTitle{
+  color:darken(gray, 20%);
+  margin:0 0 20px 0;
+  padding:0 0 15px 0;
+  border-bottom:solid 1px darken(white, 10%);
+  @include text-shadow(1px 1px 0 white);
+}
+
+$inputHeight:32px;
+
+.placeholder{height:$inputHeight;margin-bottom:20px;}
+.inputWrapper{
+  height:$inputHeight;
+  margin-bottom:20px;
+  width: 100%;
+  position:relative;
+
+  &:before{
+    content:'';
+    display:block;
+    height:5px;
+    width: 100%;
+    position: absolute;
+    bottom:0;
+    border:{
+      left:solid 1px darken(white, 20%);
+      right:solid 1px darken(white, 20%);
+      bottom:solid 1px darken(white, 20%);
+    }
+  }
+}
+input[type=text], input[type=password]{
+  width: 100%;
+  color:darken(gray, 20%);
+  position:relative;
+  height:$inputHeight;
+  line-height:$inputHeight;
+  border:none;
+  background:none;
+  padding:0 10px;
+  font-size: 16px;
+  @include transition(all .2s linear);
+ 
+  &:focus{
+    outline:none;
+    border:none;
+  }
+}
+button{
+  float:right;
+  color:white;
+  height:$inputHeight;
+}

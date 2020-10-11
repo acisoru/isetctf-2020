@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/font-awesome/3.2.0/css/font-awesome.min.css'>
+	<link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+
+</head>
+
+<body>
+
+
+<div class="box">
+  <nav id="tabs" class="tabs">
+    <a id="tabLogin" class="iconLogin active blueBox" title="Войти"></a>
+    <a id="tabRegister" class="iconRegister greenBox" title="Регистрация"></a>
+  </nav>
+
+  <div class="containerWrapper">
+
+    <!-- login container -->
+    <div id="containerLogin" class="tabContainer active">
+      <form action="do some action here!">
+      <h2 class="loginTitle">Авторизация</h2>
+      <div class="loginContent">
+        <div class="inputWrapper">
+          <input type="text" placeholder="Логин" />
+        </div>
+        <div class="inputWrapper">
+          <input type="password" placeholder="Пароль"/>
+        </div>
+      </div>
+      <button class="blueBox"><span class="iconLogin"></span> ВОЙТИ</button>
+      <div class="clear"></div>
+    </form>
+    </div>
+
+    <!-- register container -->
+    <div id="containerRegister" class="tabContainer">
+      <form action="do some action here!">
+        <h2 class="loginTitle">Регистрация</h2>
+        <div class="registerContent">
+          <div class="inputWrapper">
+            <input type="text" placeholder="Ваше имя" />
+          </div>
+          <div class="inputWrapper">
+            <input type="password" placeholder="Ваш пароль"/>
+          </div>
+        </div>
+        <button class="greenBox"><span class="iconRegister"></span> Зарегистрироваться</button>
+        <div class="clear"></div>
+      </form>
+    </div>
+    <div class="clear"></div>
+
+    
+    <div class="clear"></div>
+  </div>
+</div>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
