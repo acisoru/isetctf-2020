@@ -1,0 +1,13 @@
+version: '2.3'
+
+services:
+  task:
+    build: service
+    restart: always
+    ports:
+      - 44401:44044
+    pids_limit: 512
+    mem_limit: 128M
+    privileged: true
+    volumes:
+      - ./service/nsjail/logs/:/var/log/nsjail/

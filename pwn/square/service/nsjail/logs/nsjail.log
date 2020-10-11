@@ -1,0 +1,116 @@
+[I][2020-09-16T19:56:02+0000] Mode: LISTEN_TCP
+[I][2020-09-16T19:56:02+0000] Jail parameters: hostname:'jail', chroot:'/chroot/', process:'/var/task/square', bind:[::]:44044, max_conns_per_ip:0, time_limit:30, personality:0, daemonize:false, clone_newnet:false, clone_newuser:true, clone_newns:true, clone_newpid:true, clone_newipc:true, clone_newuts:true, clone_newcgroup:true, keep_caps:false, disable_no_new_privs:false, max_cpus:0
+[I][2020-09-16T19:56:02+0000] Mount: '/chroot/' -> '/' flags:MS_RDONLY|MS_BIND|MS_REC|MS_PRIVATE type:'' options:'' dir:true
+[I][2020-09-16T19:56:02+0000] Mount: '/proc' flags:MS_RDONLY type:'proc' options:'' dir:true
+[I][2020-09-16T19:56:02+0000] Uid map: inside_uid:65534 outside_uid:0 count:1 newuidmap:false
+[W][2020-09-16T19:56:02+0000][8] void cmdline::logParams(nsjconf_t*)():254 Process will be UID/EUID=0 in the global user namespace, and will have user root-level access to files
+[I][2020-09-16T19:56:02+0000] Gid map: inside_gid:65534 outside_gid:0 count:1 newgidmap:false
+[W][2020-09-16T19:56:02+0000][8] void cmdline::logParams(nsjconf_t*)():264 Process will be GID/EGID=0 in the global user namespace, and will have group root-level access to files
+[I][2020-09-16T19:56:02+0000] Listening on [::]:44044
+[I][2020-09-16T20:00:10+0000] Mode: LISTEN_TCP
+[I][2020-09-16T20:00:10+0000] Jail parameters: hostname:'jail', chroot:'/chroot/', process:'/var/task/square', bind:[::]:44044, max_conns_per_ip:0, time_limit:30, personality:0, daemonize:false, clone_newnet:false, clone_newuser:true, clone_newns:true, clone_newpid:true, clone_newipc:true, clone_newuts:true, clone_newcgroup:true, keep_caps:false, disable_no_new_privs:false, max_cpus:0
+[I][2020-09-16T20:00:10+0000] Mount: '/chroot/' -> '/' flags:MS_RDONLY|MS_BIND|MS_REC|MS_PRIVATE type:'' options:'' dir:true
+[I][2020-09-16T20:00:10+0000] Mount: '/proc' flags:MS_RDONLY type:'proc' options:'' dir:true
+[I][2020-09-16T20:00:10+0000] Uid map: inside_uid:65534 outside_uid:0 count:1 newuidmap:false
+[W][2020-09-16T20:00:10+0000][8] void cmdline::logParams(nsjconf_t*)():254 Process will be UID/EUID=0 in the global user namespace, and will have user root-level access to files
+[I][2020-09-16T20:00:10+0000] Gid map: inside_gid:65534 outside_gid:0 count:1 newgidmap:false
+[W][2020-09-16T20:00:10+0000][8] void cmdline::logParams(nsjconf_t*)():264 Process will be GID/EGID=0 in the global user namespace, and will have group root-level access to files
+[I][2020-09-16T20:00:10+0000] Listening on [::]:44044
+[I][2020-09-16T20:02:13+0000] Mode: LISTEN_TCP
+[I][2020-09-16T20:02:13+0000] Jail parameters: hostname:'jail', chroot:'/chroot/', process:'/var/task/square', bind:[::]:44044, max_conns_per_ip:0, time_limit:30, personality:0, daemonize:false, clone_newnet:false, clone_newuser:true, clone_newns:true, clone_newpid:true, clone_newipc:true, clone_newuts:true, clone_newcgroup:true, keep_caps:false, disable_no_new_privs:false, max_cpus:0
+[I][2020-09-16T20:02:13+0000] Mount: '/chroot/' -> '/' flags:MS_RDONLY|MS_BIND|MS_REC|MS_PRIVATE type:'' options:'' dir:true
+[I][2020-09-16T20:02:13+0000] Mount: '/proc' flags:MS_RDONLY type:'proc' options:'' dir:true
+[I][2020-09-16T20:02:13+0000] Uid map: inside_uid:65534 outside_uid:0 count:1 newuidmap:false
+[W][2020-09-16T20:02:13+0000][8] void cmdline::logParams(nsjconf_t*)():254 Process will be UID/EUID=0 in the global user namespace, and will have user root-level access to files
+[I][2020-09-16T20:02:13+0000] Gid map: inside_gid:65534 outside_gid:0 count:1 newgidmap:false
+[W][2020-09-16T20:02:13+0000][8] void cmdline::logParams(nsjconf_t*)():264 Process will be GID/EGID=0 in the global user namespace, and will have group root-level access to files
+[I][2020-09-16T20:02:13+0000] Listening on [::]:44044
+[I][2020-09-16T20:02:16+0000] New connection from: [::ffff:172.20.0.1]:54628 on: [::ffff:172.20.0.2]:44044
+[I][2020-09-16T20:02:16+0000] Executing '/var/task/square' for '[::ffff:172.20.0.1]:54628'
+[I][2020-09-16T20:02:23+0000] pid=9 ([::ffff:172.20.0.1]:54628) exited with status: 0, (PIDs left: 0)
+[I][2020-09-16T20:02:26+0000] New connection from: [::ffff:172.20.0.1]:54632 on: [::ffff:172.20.0.2]:44044
+[I][2020-09-16T20:02:26+0000] Executing '/var/task/square' for '[::ffff:172.20.0.1]:54632'
+[I][2020-09-16T20:02:39+0000] pid=10 ([::ffff:172.20.0.1]:54632) exited with status: 0, (PIDs left: 0)
+[I][2020-09-16T20:02:51+0000] New connection from: [::ffff:172.20.0.1]:54636 on: [::ffff:172.20.0.2]:44044
+[I][2020-09-16T20:02:51+0000] Executing '/var/task/square' for '[::ffff:172.20.0.1]:54636'
+[I][2020-09-16T20:02:53+0000] pid=11 ([::ffff:172.20.0.1]:54636) exited with status: 0, (PIDs left: 0)
+[I][2020-09-16T20:03:50+0000] New connection from: [::ffff:172.20.0.1]:54640 on: [::ffff:172.20.0.2]:44044
+[I][2020-09-16T20:03:50+0000] Executing '/var/task/square' for '[::ffff:172.20.0.1]:54640'
+[I][2020-09-16T20:04:08+0000] pid=12 ([::ffff:172.20.0.1]:54640) exited with status: 0, (PIDs left: 0)
+[I][2020-09-16T20:07:40+0000] New connection from: [::ffff:172.20.0.1]:54644 on: [::ffff:172.20.0.2]:44044
+[I][2020-09-16T20:07:40+0000] Executing '/var/task/square' for '[::ffff:172.20.0.1]:54644'
+[I][2020-09-16T20:08:08+0000] pid=13 ([::ffff:172.20.0.1]:54644) exited with status: 0, (PIDs left: 0)
+[I][2020-09-16T20:08:11+0000] New connection from: [::ffff:172.20.0.1]:54648 on: [::ffff:172.20.0.2]:44044
+[I][2020-09-16T20:08:11+0000] Executing '/var/task/square' for '[::ffff:172.20.0.1]:54648'
+[I][2020-09-16T20:08:12+0000] pid=14 ([::ffff:172.20.0.1]:54648) exited with status: 0, (PIDs left: 0)
+[I][2020-09-16T20:08:14+0000] New connection from: [::ffff:172.20.0.1]:54652 on: [::ffff:172.20.0.2]:44044
+[I][2020-09-16T20:08:14+0000] Executing '/var/task/square' for '[::ffff:172.20.0.1]:54652'
+[I][2020-09-16T20:08:44+0000] pid=15 run time >= time limit (30 >= 30) ([::ffff:172.20.0.1]:54652). Killing it
+[I][2020-09-16T20:08:44+0000] pid=15 ([::ffff:172.20.0.1]:54652) terminated with signal: SIGKILL (9), (PIDs left: 0)
+[I][2020-09-16T20:08:59+0000] New connection from: [::ffff:172.20.0.1]:54656 on: [::ffff:172.20.0.2]:44044
+[I][2020-09-16T20:08:59+0000] Executing '/var/task/square' for '[::ffff:172.20.0.1]:54656'
+[I][2020-09-16T20:09:29+0000] pid=16 run time >= time limit (30 >= 30) ([::ffff:172.20.0.1]:54656). Killing it
+[I][2020-09-16T20:09:29+0000] pid=16 ([::ffff:172.20.0.1]:54656) terminated with signal: SIGKILL (9), (PIDs left: 0)
+[I][2020-09-17T14:25:08+0000] Mode: LISTEN_TCP
+[I][2020-09-17T14:25:08+0000] Jail parameters: hostname:'jail', chroot:'/chroot/', process:'/var/task/square', bind:[::]:44044, max_conns_per_ip:0, time_limit:30, personality:0, daemonize:false, clone_newnet:false, clone_newuser:true, clone_newns:true, clone_newpid:true, clone_newipc:true, clone_newuts:true, clone_newcgroup:true, keep_caps:false, disable_no_new_privs:false, max_cpus:0
+[I][2020-09-17T14:25:08+0000] Mount: '/chroot/' -> '/' flags:MS_RDONLY|MS_BIND|MS_REC|MS_PRIVATE type:'' options:'' dir:true
+[I][2020-09-17T14:25:08+0000] Mount: '/proc' flags:MS_RDONLY type:'proc' options:'' dir:true
+[I][2020-09-17T14:25:08+0000] Uid map: inside_uid:65534 outside_uid:0 count:1 newuidmap:false
+[W][2020-09-17T14:25:08+0000][8] void cmdline::logParams(nsjconf_t*)():254 Process will be UID/EUID=0 in the global user namespace, and will have user root-level access to files
+[I][2020-09-17T14:25:08+0000] Gid map: inside_gid:65534 outside_gid:0 count:1 newgidmap:false
+[W][2020-09-17T14:25:08+0000][8] void cmdline::logParams(nsjconf_t*)():264 Process will be GID/EGID=0 in the global user namespace, and will have group root-level access to files
+[I][2020-09-17T14:25:08+0000] Listening on [::]:44044
+[I][2020-09-17T14:25:35+0000] New connection from: [::ffff:172.18.0.1]:34258 on: [::ffff:172.18.0.2]:44044
+[I][2020-09-17T14:25:35+0000] Executing '/var/task/square' for '[::ffff:172.18.0.1]:34258'
+[I][2020-09-17T14:25:40+0000] pid=9 ([::ffff:172.18.0.1]:34258) exited with status: 0, (PIDs left: 0)
+[I][2020-09-17T14:26:39+0000] New connection from: [::ffff:172.18.0.1]:34262 on: [::ffff:172.18.0.2]:44044
+[I][2020-09-17T14:26:39+0000] Executing '/var/task/square' for '[::ffff:172.18.0.1]:34262'
+[I][2020-09-17T14:26:41+0000] pid=10 ([::ffff:172.18.0.1]:34262) terminated with signal: SIGSEGV (11), (PIDs left: 0)
+[I][2020-09-17T14:31:09+0000] Mode: LISTEN_TCP
+[I][2020-09-17T14:31:09+0000] Jail parameters: hostname:'jail', chroot:'/chroot/', process:'/var/task/square', bind:[::]:44044, max_conns_per_ip:0, time_limit:30, personality:0, daemonize:false, clone_newnet:false, clone_newuser:true, clone_newns:true, clone_newpid:true, clone_newipc:true, clone_newuts:true, clone_newcgroup:true, keep_caps:false, disable_no_new_privs:false, max_cpus:0
+[I][2020-09-17T14:31:09+0000] Mount: '/chroot/' -> '/' flags:MS_RDONLY|MS_BIND|MS_REC|MS_PRIVATE type:'' options:'' dir:true
+[I][2020-09-17T14:31:09+0000] Mount: '/proc' flags:MS_RDONLY type:'proc' options:'' dir:true
+[I][2020-09-17T14:31:09+0000] Uid map: inside_uid:65534 outside_uid:0 count:1 newuidmap:false
+[W][2020-09-17T14:31:09+0000][8] void cmdline::logParams(nsjconf_t*)():254 Process will be UID/EUID=0 in the global user namespace, and will have user root-level access to files
+[I][2020-09-17T14:31:09+0000] Gid map: inside_gid:65534 outside_gid:0 count:1 newgidmap:false
+[W][2020-09-17T14:31:09+0000][8] void cmdline::logParams(nsjconf_t*)():264 Process will be GID/EGID=0 in the global user namespace, and will have group root-level access to files
+[I][2020-09-17T14:31:09+0000] Listening on [::]:44044
+[I][2020-09-17T14:31:20+0000] New connection from: [::ffff:172.19.0.1]:40578 on: [::ffff:172.19.0.2]:44044
+[I][2020-09-17T14:31:20+0000] Executing '/var/task/square' for '[::ffff:172.19.0.1]:40578'
+[I][2020-09-17T14:31:38+0000] pid=9 ([::ffff:172.19.0.1]:40578) exited with status: 0, (PIDs left: 0)
+[I][2020-09-17T14:32:49+0000] Mode: LISTEN_TCP
+[I][2020-09-17T14:32:49+0000] Jail parameters: hostname:'jail', chroot:'/chroot/', process:'/var/task/square', bind:[::]:44044, max_conns_per_ip:0, time_limit:30, personality:0, daemonize:false, clone_newnet:false, clone_newuser:true, clone_newns:true, clone_newpid:true, clone_newipc:true, clone_newuts:true, clone_newcgroup:true, keep_caps:false, disable_no_new_privs:false, max_cpus:0
+[I][2020-09-17T14:32:49+0000] Mount: '/chroot/' -> '/' flags:MS_RDONLY|MS_BIND|MS_REC|MS_PRIVATE type:'' options:'' dir:true
+[I][2020-09-17T14:32:49+0000] Mount: '/proc' flags:MS_RDONLY type:'proc' options:'' dir:true
+[I][2020-09-17T14:32:49+0000] Uid map: inside_uid:65534 outside_uid:0 count:1 newuidmap:false
+[W][2020-09-17T14:32:49+0000][8] void cmdline::logParams(nsjconf_t*)():254 Process will be UID/EUID=0 in the global user namespace, and will have user root-level access to files
+[I][2020-09-17T14:32:49+0000] Gid map: inside_gid:65534 outside_gid:0 count:1 newgidmap:false
+[W][2020-09-17T14:32:49+0000][8] void cmdline::logParams(nsjconf_t*)():264 Process will be GID/EGID=0 in the global user namespace, and will have group root-level access to files
+[I][2020-09-17T14:32:49+0000] Listening on [::]:44044
+[I][2020-09-17T14:32:52+0000] New connection from: [::ffff:172.20.0.1]:39774 on: [::ffff:172.20.0.2]:44044
+[I][2020-09-17T14:32:52+0000] Executing '/var/task/square' for '[::ffff:172.20.0.1]:39774'
+[I][2020-09-17T14:33:14+0000] pid=9 ([::ffff:172.20.0.1]:39774) exited with status: 0, (PIDs left: 0)
+[I][2020-09-17T14:33:59+0000] Mode: LISTEN_TCP
+[I][2020-09-17T14:33:59+0000] Jail parameters: hostname:'jail', chroot:'/chroot/', process:'/var/task/square', bind:[::]:44044, max_conns_per_ip:0, time_limit:30, personality:0, daemonize:false, clone_newnet:false, clone_newuser:true, clone_newns:true, clone_newpid:true, clone_newipc:true, clone_newuts:true, clone_newcgroup:true, keep_caps:false, disable_no_new_privs:false, max_cpus:0
+[I][2020-09-17T14:33:59+0000] Mount: '/chroot/' -> '/' flags:MS_RDONLY|MS_BIND|MS_REC|MS_PRIVATE type:'' options:'' dir:true
+[I][2020-09-17T14:33:59+0000] Mount: '/proc' flags:MS_RDONLY type:'proc' options:'' dir:true
+[I][2020-09-17T14:33:59+0000] Uid map: inside_uid:65534 outside_uid:0 count:1 newuidmap:false
+[W][2020-09-17T14:33:59+0000][9] void cmdline::logParams(nsjconf_t*)():254 Process will be UID/EUID=0 in the global user namespace, and will have user root-level access to files
+[I][2020-09-17T14:33:59+0000] Gid map: inside_gid:65534 outside_gid:0 count:1 newgidmap:false
+[W][2020-09-17T14:33:59+0000][9] void cmdline::logParams(nsjconf_t*)():264 Process will be GID/EGID=0 in the global user namespace, and will have group root-level access to files
+[I][2020-09-17T14:33:59+0000] Listening on [::]:44044
+[I][2020-09-17T14:34:00+0000] New connection from: [::ffff:172.21.0.1]:48310 on: [::ffff:172.21.0.2]:44044
+[I][2020-09-17T14:34:00+0000] Executing '/var/task/square' for '[::ffff:172.21.0.1]:48310'
+[I][2020-09-17T14:34:10+0000] pid=10 ([::ffff:172.21.0.1]:48310) exited with status: 0, (PIDs left: 0)
+[I][2020-09-17T18:14:20+0000] Mode: LISTEN_TCP
+[I][2020-09-17T18:14:20+0000] Jail parameters: hostname:'jail', chroot:'/chroot/', process:'/var/task/square', bind:[::]:44044, max_conns_per_ip:0, time_limit:30, personality:0, daemonize:false, clone_newnet:false, clone_newuser:true, clone_newns:true, clone_newpid:true, clone_newipc:true, clone_newuts:true, clone_newcgroup:true, keep_caps:false, disable_no_new_privs:false, max_cpus:0
+[I][2020-09-17T18:14:20+0000] Mount: '/chroot/' -> '/' flags:MS_RDONLY|MS_BIND|MS_REC|MS_PRIVATE type:'' options:'' dir:true
+[I][2020-09-17T18:14:20+0000] Mount: '/proc' flags:MS_RDONLY type:'proc' options:'' dir:true
+[I][2020-09-17T18:14:20+0000] Uid map: inside_uid:65534 outside_uid:0 count:1 newuidmap:false
+[W][2020-09-17T18:14:20+0000][8] void cmdline::logParams(nsjconf_t*)():254 Process will be UID/EUID=0 in the global user namespace, and will have user root-level access to files
+[I][2020-09-17T18:14:20+0000] Gid map: inside_gid:65534 outside_gid:0 count:1 newgidmap:false
+[W][2020-09-17T18:14:20+0000][8] void cmdline::logParams(nsjconf_t*)():264 Process will be GID/EGID=0 in the global user namespace, and will have group root-level access to files
+[I][2020-09-17T18:14:20+0000] Listening on [::]:44044
+[I][2020-09-17T18:14:42+0000] New connection from: [::ffff:172.19.0.1]:55296 on: [::ffff:172.19.0.2]:44044
+[I][2020-09-17T18:14:42+0000] Executing '/var/task/square' for '[::ffff:172.19.0.1]:55296'
+[I][2020-09-17T18:14:56+0000] pid=9 ([::ffff:172.19.0.1]:55296) exited with status: 0, (PIDs left: 0)
