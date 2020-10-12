@@ -1,7 +1,7 @@
 # Be patient 
 ## Условие
 > Кто ищет, тот всегда найдет :)
-> https://drive.google.com/file/d/16--bxGtl-wlTRgT_rUtwb2P7eVwg1Tuy/view?usp=sharing <br/>
+> https://drive.google.com/file/d/16--bxGtl-wlTRgT_rUtwb2P7eVwg1Tuy/view <br/>
 > password: iset1
 ## Решение
 > Запустить find . -type f -exec grep -i -H "iset" {} \;
