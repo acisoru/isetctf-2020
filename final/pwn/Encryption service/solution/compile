@@ -1,0 +1,4 @@
+# Compiled on ubnutu 18.04
+# gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04)
+
+gcc -g -Wl,-z,norelro -no-pie -fno-stack-protector vuln.c -o vuln

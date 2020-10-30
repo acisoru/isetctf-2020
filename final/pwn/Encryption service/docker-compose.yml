@@ -1,0 +1,13 @@
+version: '3'
+services:
+  pwn150:
+    build: ./task
+    container_name: pwn150
+    restart: always
+    ports:
+      - 8138:1337
+    deploy:
+      resources:
+        limits:
+          cpus: "1"
+          memory: "150M"

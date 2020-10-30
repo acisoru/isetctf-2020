@@ -1,0 +1,13 @@
+version: '3'
+services:
+  aced_cafe:
+    build: ./deploy
+    container_name: aced_cafe
+    restart: always
+    ports:
+      - 9137:1337
+    deploy:
+      resources:
+        limits:
+          cpus: "2"
+          memory: "300M"
