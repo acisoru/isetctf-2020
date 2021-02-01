@@ -1,0 +1,49 @@
+dn: ou=People,dc=ldap,dc=ctf,dc=org
+objectClass: organizationalUnit
+ou: People
+
+dn: sn=admin,ou=People,dc=ldap,dc=ctf,dc=org
+cn: admin
+sn: admin
+uid: adminodminadminodmin31337
+objectClass: inetOrgPerson
+mail: aw350m3ld4pinj3c7i0n@ctf.ru
+mobile: 31337
+description: Admin from engineering.  Admin is responsible for designing the blue prints and testing the structural integrity of the design. Admin gives you a flag in email.
+
+dn: sn=user,ou=People,dc=ldap,dc=ctf,dc=org
+cn: user
+sn: user
+uid: user
+objectClass: inetOrgPerson
+mail: 7ryh4rd3r@ctf.ru
+mobile: 10001
+description: User from engineering.  User is responsible for designing the blue prints and testing the structural integrity of the design. Are you sure an admin?
+
+dn: sn=susmith5,ou=People,dc=ldap,dc=ctf,dc=org
+cn: susmith5
+sn: susmith5
+uid: susmith5
+objectClass: inetOrgPerson
+mail: 7ryh4rd3r@ctf.ru
+mobile: 69332
+description: Suzie Smith from Accounting.  Suzie is the project manager of the building project, so contact him with any questions.
+
+dn: sn=jsmith1,ou=People,dc=ldap,dc=ctf,dc=org
+cn: jsmith1
+sn: jsmith1
+uid: jsmith1
+objectClass: inetOrgPerson
+mail: 7ryh4rd3r@ctf.ru
+mobile: 55525
+description: John Smith from Accounting.  John is the project manager of the building project, so contact him with any questions. 
+
+
+dn: sn=sbrown20,ou=People,dc=ldap,dc=ctf,dc=org
+cn: sbrown20
+sn: sbrown20
+uid: sbrown20
+objectClass: inetOrgPerson
+mail: 7ryh4rd3r@ctf.ru
+mobile: 41447
+description: Sally Brown from engineering.  Sally is responsible for designing the blue prints and testing the structural integrity of the design.

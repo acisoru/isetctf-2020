@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WoW</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <main>
+        <section class="center-block">
+            <h1>lITTLE daMp</h1>
+            {% if card_info %}
+                <h1>{{ card_info.sn }}</h1>
+                <p>Mail: <code>[try_harder]</code>@ctf.ru</p>
+                <p>Telephone Number: {{ card_info.mobile }}</p>
+                <p>Description: {{ card_info.description }}</p>
+            {% else %}
+                <p>!lol!</p>
+            {% endif %}
+            <p><a href="/">Back</a></p>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,26 @@
+version: '3.7'
+
+services:
+  app:
+    ports:
+      - '5656:5656'
+    build: .
+    environment:
+      SECRET_KEY: "passpasswordlol013133701lolpasswordpass"
+    depends_on:
+      - openldap
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 1GB
+
+  openldap:
+    image: 'dinkel/openldap'
+    volumes:
+      - "./ldap:/etc/ldap.dist/prepopulate"
+    environment:
+      SLAPD_PASSWORD: 'passwordlol013133701lolpassword'
+      SLAPD_CONFIG_PASSWORD: "lol013133701lol"
+      SLAPD_DOMAIN: 'ldap.ctf.org'
+      SLAPD_FORCE_RECONFIGURE: 'true'
