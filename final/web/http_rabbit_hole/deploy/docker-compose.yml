@@ -1,0 +1,42 @@
+version: "3.2"
+services:
+  php:
+    build: 
+      context: './phpPHP/'
+      args:
+       PHP_VERSION: ${PHP_VERSION}
+    networks:
+      - backend
+    volumes:
+      - ${PROJECT_ROOT}/:/var/www/html/
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 512MB
+     
+  apache:
+    build:
+      context: './apachee/'
+      args:
+       APACHE_VERSION: ${APACHE_VERSION}
+    depends_on:
+      - php
+    networks:
+      - frontend
+      - backend
+    ports:
+      - "7777:80"
+    volumes:
+      - ${PROJECT_ROOT}/:/var/www/html/
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 512MB
+     
+networks:
+  frontend:
+  backend:
+volumes:
+    data:
